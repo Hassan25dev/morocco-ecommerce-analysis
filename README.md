@@ -1,4 +1,4 @@
-# 🇲🇦 Morocco E-Commerce Data Analysis
+# Morocco E-Commerce Data Analysis
 
 A professional **data cleaning and exploratory data analysis (EDA)** project using a real-world Moroccan e-commerce dataset.  
 This project simulates the work of a **junior data analyst**, from raw data ingestion to cleaned datasets and business insights.
@@ -155,7 +155,13 @@ This project showcases essential **data analysis and data engineering** skills:
 - Perform predictive sales analysis  
 
 ---
+## 🙏 Acknowledgements
 
+This project was developed as part of an analytical challenge assigned by **Youssef CHIGANE**, instructor at the *AI-Enhanced Data Analyst Bootcamp* – JobInTech (in partnership with Groupe Holmarcom & AI Institute).
+
+Thank you for your insightful mentorship, thoughtful guidance, and commitment to shaping the next generation of data professionals in Morocco. Your emphasis on rigorous analysis, clear storytelling with data, and the responsible use of AI continues to inspire my journey as a junior data analyst.
+
+---
 
 ## 👤 About
 
