@@ -114,7 +114,7 @@ morocco-ecommerce-analysis/
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/morocco-ecommerce-analysis.git
+   git clone https://github.com/Hassan25dev/morocco-ecommerce-analysis.git
    ```
 2. **Navigate to the project**
    ```bash
