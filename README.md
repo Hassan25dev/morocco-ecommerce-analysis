@@ -73,28 +73,23 @@ This project showcases essential **data analysis and data engineering** skills:
 
 ## 🗂️ Project Structure
 
-morocco-ecommerce-analysis/
-│
-├── data/
-│ ├── raw/ # Original datasets (CSV, Excel, JSON)
-│ └── processed/ # Cleaned dataset
-│
-├── notebooks/
-│ └── 01_data_cleaning_and_eda.ipynb
-│
-├── src/
-│ ├── init.py
-│ ├── data_cleaning.py
-│ └── analysis.py
-│
-├── outputs/
-│ ├── figures/ # Saved plots
-│ └── tables/ # Exported statistics
-│
-├── README.md
-├── requirements.txt
-├── .gitignore
-└── LICENSE
+📁 morocco-ecommerce-analysis/
+├── 📁 data/
+│   ├── 📄 raw/                # Original datasets (CSV, Excel, JSON)
+│   └── 📄 processed/          # Cleaned dataset
+├── 📁 notebooks/
+│   └── 📄 01_data_cleaning_and_eda.ipynb
+├── 📁 src/
+│   ├── 📄 __init__.py
+│   ├── 📄 data_cleaning.py
+│   └── 📄 analysis.py
+├── 📁 outputs/
+│   ├── 📷 figures/            # Saved plots
+│   └── 📊 tables/             # Exported statistics
+├── 📄 README.md
+├── 📄 requirements.txt
+├── 📄 .gitignore
+└── 📄 LICENSE
 
 
 ---
