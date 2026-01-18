@@ -72,7 +72,7 @@ This project showcases essential **data analysis and data engineering** skills:
 ---
 
 ## 🗂️ Project Structure
-
+```text
 📁 morocco-ecommerce-analysis/
 ├── 📁 data/
 │   ├── 📄 raw/                # Original datasets (CSV, Excel, JSON)
@@ -90,6 +90,7 @@ This project showcases essential **data analysis and data engineering** skills:
 ├── 📄 requirements.txt
 ├── 📄 .gitignore
 └── 📄 LICENSE
+```
 
 
 ---
