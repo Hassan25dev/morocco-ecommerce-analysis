@@ -74,6 +74,9 @@ This project showcases essential **data analysis and data engineering** skills:
 ## 🗂️ Project Structure
 ```text
 📁 morocco-ecommerce-analysis/
+├── 📁 questions/
+│   ├── 📄 morocco_ecommerce_questions.md   # Plain-text task list (recommended for review)
+│   └── 🌐 Questions pandas.html            # Rendered HTML version (for visual reference)
 ├── 📁 data/
 │   ├── 📄 raw/                # Original datasets (CSV, Excel, JSON)
 │   └── 📄 processed/          # Cleaned dataset
