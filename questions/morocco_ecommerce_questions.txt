@@ -1,0 +1,91 @@
+# 🇲🇦 Morocco E-Commerce · Dataset Practice  
+## Data Cleaning & Analysis – Question Sheet
+
+Use the `morocco_ecommerce.csv` dataset and **Pandas** to answer all questions below.  
+Approach this exercise as a real junior data analyst: focus on **loading, inspecting, cleaning, and exploring** the data with rigor and curiosity.
+
+> 💡 **Goal**: Build clean, reproducible, and insightful analysis from messy real-world e-commerce data.  
+> **Tools**: Python + Pandas (Jupyter Notebook, VS Code, or any IDE)  
+> **Audience**: Learners — *Questions only, no spoilers!*
+
+---
+
+### 📂 1. Dataset Structure & Basic Exploration  
+*Understand what the dataset looks like and what each column represents.*
+
+**Q1.** Load `morocco_ecommerce.csv` into a DataFrame called `df` and display the first 10 rows.  
+**Q2.** How many rows and columns does the dataset contain?  
+**Q3.** List all column names.  
+**Q4.** What are the data types of each column?
+
+---
+
+### 🧹 2. Missing Values & Data Quality  
+*Identify and handle missing data to improve reliability.*
+
+**Q5.** Count missing values in each column.  
+**Q6.** Which column(s) have the highest number of missing values?  
+**Q7.** Remove all rows with any missing values and report how many rows remain.  
+**Q8.** Fill missing values in the `city` column with `"Unknown"`.  
+**Q9.** Fill missing values in the `unit_price` column using its mean.
+
+---
+
+### 🔁 3. Duplicates  
+*Ensure each order is counted once.*
+
+**Q10.** How many fully duplicated rows exist in the dataset?  
+**Q11.** Remove all duplicated rows and report the new row count.  
+**Q12.** Remove duplicates based only on `order_id`, keeping the first occurrence.
+
+---
+
+### 🔍 4. Filtering & Subsetting  
+*Extract meaningful slices of the data.*
+
+**Q13.** Select all orders with `quantity > 3`.  
+**Q14.** Select all orders where `total_amount > 1000`.  
+**Q15.** Select all orders made in the `"Casablanca-Settat"` region.  
+**Q16.** Select all orders **not** paid with the `"Cash"` payment method.
+
+---
+
+### 📊 5. Descriptive Statistics  
+*Summarize key business metrics.*
+
+**Q17.** Compute the mean, median, minimum, and maximum of `total_amount`.  
+**Q18.** Identify the region with the highest average `total_amount`.  
+**Q19.** Identify the `product_id` with the highest total revenue (`sum(total_amount)`).
+
+---
+
+### ✨ 6. String Cleaning  
+*Standardize text for consistency.*
+
+**Q20.** Standardize the `city` column:  
+ – Remove leading/trailing spaces  
+ – Apply title case (e.g., `"rabat"` → `"Rabat"`)  
+**Q21.** Replace variations like `"Casa"`, `"casa"`, or `"CASABLANCA"` with the standardized name `"Casablanca"`.
+
+---
+
+### 📅 7. Date & Time Features  
+*Enable time-based analysis.*
+
+**Q22.** Convert `order_date` and `ship_date` to proper `datetime` objects.  
+**Q23.** Create new columns: `year`, `month`, and `weekday` (from `order_date`).  
+**Q24.** Select all orders made after `"2023-06-01"`.  
+**Q25.** Using `order_date` as a datetime index, compute the **average monthly revenue** (mean of `total_amount` per month).
+
+---
+
+### ⚠️ 8. Outlier Detection  
+*Identify unusual or erroneous orders.*
+
+**Q26.** Use the **IQR method** on `total_amount` to detect potential outliers.  
+**Q27.** Use the **Z-score method** on `total_amount` to detect potential outliers.  
+**Q28.** List the **5 largest values** of `total_amount` along with their `order_id`.
+
+---
+
+> 💡 **Pro Tip**: Keep your solution notebook! Compare it later with official solutions or peer approaches to deepen your learning.
